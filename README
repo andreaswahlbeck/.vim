@@ -1,6 +1,9 @@
-
 switching to vim:
     http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+
+Link .vimrc
+ln -s ~/.vim/.vimrc ~/.vimrc
+
 
 Add submodules to bundle by:
     git submodule add <REPO> bundle/<BUNDLE NAME>
