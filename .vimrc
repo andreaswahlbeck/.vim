@@ -10,9 +10,9 @@ filetype plugin indent on       " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                      " don't wrap lines
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab                   " use spaces, not tabs (optional)
 
 set encoding=utf-8
@@ -31,7 +31,7 @@ set backspace=indent,eol,start
 set laststatus=2
 "set relativenumber
 set number
-set undofile
+"set undofile
 
 let mapleader = ","
 
