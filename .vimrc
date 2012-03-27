@@ -9,7 +9,11 @@ set background=dark
 colorscheme zenburn
 
 if has('gui_running')
-  set background=light
+  set columns=80
+  set guioptions-=T      " disable toolbar
+  set guioptions-=m      " disable menu
+
+  set background=dark
  else
    set background=dark
 endif
