@@ -5,7 +5,15 @@ set nocompatible                " choose no compatibility with legacy vi
 set modelines=0                 " prevent some exploits
 syntax enable
 set background=dark
-colorscheme solarized
+"colorscheme solarized
+colorscheme zenburn
+
+if has('gui_running')
+  set background=light
+ else
+   set background=dark
+endif
+
 filetype plugin indent on       " load file type plugins + indentation
 
 "" Whitespace
@@ -32,6 +40,10 @@ set laststatus=2
 "set relativenumber
 set number
 "set undofile
+"" backup/swap files
+set nobackup             " no backup files
+set noswapfile           " no swap files
+
 
 let mapleader = ","
 
