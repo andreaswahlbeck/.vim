@@ -5,18 +5,20 @@ set nocompatible                " choose no compatibility with legacy vi
 set modelines=0                 " prevent some exploits
 syntax enable
 set background=dark
-"colorscheme solarized
-colorscheme zenburn
 
 if has('gui_running')
   set columns=80
   set guioptions-=T      " disable toolbar
   set guioptions-=m      " disable menu
 
-  set background=dark
+  set background=light
  else
+   "set background=dark
    set background=dark
 endif
+
+colorscheme solarized
+"colorscheme zenburn
 
 filetype plugin indent on       " load file type plugins + indentation
 
