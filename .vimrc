@@ -14,7 +14,6 @@ if has('gui_running')
   "set background=light
   set background=dark
  else
-   "set background=dark
    set background=dark
 endif
 
