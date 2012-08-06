@@ -11,7 +11,8 @@ if has('gui_running')
   set guioptions-=T      " disable toolbar
   set guioptions-=m      " disable menu
 
-  set background=light
+  "set background=light
+  set background=dark
  else
    "set background=dark
    set background=dark
