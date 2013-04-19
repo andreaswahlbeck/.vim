@@ -7,3 +7,6 @@
 [submodule "bundle/Zenburn"]
 	path = bundle/Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "bundle/soda.vim"]
+	path = bundle/soda.vim
+	url = https://github.com/DAddYE/soda.vim.git

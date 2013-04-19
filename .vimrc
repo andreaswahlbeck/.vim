@@ -17,8 +17,9 @@ if has('gui_running')
    set background=dark
 endif
 
-colorscheme solarized
-"colorscheme zenburn
+"colorscheme solarized
+colorscheme zenburn
+"colorscheme soda
 
 filetype plugin indent on       " load file type plugins + indentation
 
